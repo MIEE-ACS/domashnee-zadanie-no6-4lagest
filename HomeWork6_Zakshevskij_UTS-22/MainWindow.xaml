@@ -1,0 +1,17 @@
+﻿<Window x:Class="HomeWork6_Zakshevskij_UTS_22.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HomeWork6_Zakshevskij_UTS_22"
+        mc:Ignorable="d"
+        Title="Закшевский Родион, УТС-22. Вариант 5" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/razer_3840x2160_slcx9.png"/>
+        </Grid.Background>
+        <Label x:Name="MainLb" Content="" Margin="10,25,10,93" Foreground="White" FontSize="11" FontFamily="Times New Roman"/>
+        <Button x:Name="BtCreate" Content="Создать" Margin="190,346,500,38" Background="#FF60FD0B" Click="BtCreate_Click"/>
+        <Button x:Name="BtDelete" Content="Удалить" Margin="506,346,184,38" Background="#FFF3150B" Click="BtDelete_Click"/>
+    </Grid>
+</Window>

@@ -1,0 +1,18 @@
+﻿<Window x:Class="HomeWork6_Zakshevskij_UTS_22.WindowDelete"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HomeWork6_Zakshevskij_UTS_22"
+        mc:Ignorable="d"
+        Title="WindowDelete" Height="200" Width="500">
+    <Window.Background>
+        <ImageBrush ImageSource="/razer_3840x2160_slcx9.png"/>
+    </Window.Background>
+    <Grid>
+        <TextBox x:Name="TbNumber" HorizontalAlignment="Left" Margin="56,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="120"/>
+        <Button x:Name="BtDelete" Content="Удалить" HorizontalAlignment="Left" Margin="352,41,0,0" VerticalAlignment="Top" Height="33" Width="82" Background="#FFFB0000" Click="BtDelete_Click"/>
+        <Button x:Name="BtExit" Content="Отменить" HorizontalAlignment="Left" Margin="352,104,0,0" VerticalAlignment="Top" Height="29" Width="82" Background="#FF4BD600" Click="BtExit_Click"/>
+
+    </Grid>
+</Window>

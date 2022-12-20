@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>HomeWork6_Zakshevskij_UTS_22</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="razer_3840x2160_slcx9.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="razer_3840x2160_slcx9.png" />
+  </ItemGroup>
+
+</Project>
