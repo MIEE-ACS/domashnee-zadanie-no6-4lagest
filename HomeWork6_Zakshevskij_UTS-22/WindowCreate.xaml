@@ -1,0 +1,28 @@
+﻿<Window x:Class="HomeWork6_Zakshevskij_UTS_22.WindowCreate"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HomeWork6_Zakshevskij_UTS_22"
+        mc:Ignorable="d"
+        Title="Окно создания" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/razer_3840x2160_slcx9.png"/>
+        </Grid.Background>
+        <ComboBox x:Name="Cb" Margin="110,0,0,309" SelectionChanged="ComboBox_SelectionChanged" HorizontalAlignment="Left" Width="157" Height="25" VerticalAlignment="Bottom">
+            <ComboBoxItem Content="Круг"/>
+            <ComboBoxItem Content="Прямоугольник"/>
+            <ComboBoxItem Content="Трапеция"/>
+        </ComboBox>
+        <TextBox x:Name="Tb3" Margin="338,260,0,0" TextWrapping="Wrap" Text="&#xA;" Height="25" VerticalAlignment="Top" HorizontalAlignment="Left" Width="124"/>
+        <TextBox x:Name="Tb1" Margin="338,100,0,0" TextWrapping="Wrap" Text="&#xA;" Foreground="Black" HorizontalAlignment="Left" Width="124" Height="25" VerticalAlignment="Top"/>
+        <TextBox x:Name="Tb2" Margin="338,180,0,0" TextWrapping="Wrap" Text="&#xA;" HorizontalAlignment="Left" Width="124" Height="25" VerticalAlignment="Top"/>
+        <Label x:Name="Lb_1" Content="" Margin="338,69,0,0" Foreground="White" HorizontalAlignment="Left" Width="124" Height="26" VerticalAlignment="Top"/>
+        <Label x:Name="Lb_2" Content="" Margin="0,149,0,0" Foreground="White" HorizontalAlignment="Center" Width="124" Height="26" VerticalAlignment="Top"/>
+        <Label x:Name="Lb_3" Content="" Margin="338,229,0,0" VerticalAlignment="Top" Foreground="White" HorizontalAlignment="Left" Width="124"/>
+        <Button Content="Добавить" Margin="601,190,88,199" Background="#FF6DEF06" Click="Button_Click"/>
+        <Button x:Name="BtExit" Content="Отменить" Margin="601,292,88,97" Background="#FFEF0606" Click="BtExit_Click"/>
+
+    </Grid>
+</Window>
